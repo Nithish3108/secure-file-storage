@@ -29,10 +29,11 @@
 - Python 3.6+
 - `cryptography` library
 
-Install the required library:
-
+Install the required library
 ```bash
 pip install cryptography
+```
+
 
 
 secure-file-storage/
@@ -41,5 +42,28 @@ secure-file-storage/
 ├── metadata_store.json    # Stores encryption logs (auto-generated)
 ├── .gitignore             # Prevents pushing sensitive or unnecessary files
 └── README.md              # This file
+
+## How to Use (Step-by-Step)
+✅ Step 1: Clone the Project:
+```bash
+git clone https://github.com/your-username/secure-file-storage.git
+cd secure-file-storage
+```
+✅ Step 2: Install Dependencies
+Install the required Python module:
+```bash
+pip install cryptography
+```
+
+✅ Step 3: Run the Program:
+```bash
+python filelocker.py
+```
+
+
+
+
+
+
 
 
