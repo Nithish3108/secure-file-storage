@@ -34,3 +34,12 @@ Install the required library:
 ```bash
 pip install cryptography
 
+
+secure-file-storage/
+├── encryptor.py           # Core AES encryption/decryption logic
+├── filelocker.py          # CLI interface
+├── metadata_store.json    # Stores encryption logs (auto-generated)
+├── .gitignore             # Prevents pushing sensitive or unnecessary files
+└── README.md              # This file
+
+
