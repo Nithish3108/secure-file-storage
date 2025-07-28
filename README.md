@@ -46,7 +46,7 @@ secure-file-storage/
 ## How to Use (Step-by-Step)
 ✅ Step 1: Clone the Project:
 ```bash
-git clone https://github.com/your-username/secure-file-storage.git
+git clone https://github.com/Nithish3108/secure-file-storage.git
 ```
 ✅ Step 2: Move to tye folder:
 ```bash
