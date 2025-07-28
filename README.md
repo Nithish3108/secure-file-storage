@@ -49,13 +49,18 @@ secure-file-storage/
 git clone https://github.com/your-username/secure-file-storage.git
 cd secure-file-storage
 ```
-✅ Step 2: Install Dependencies
+✅ Step 2: Move to tye folder:
+```bash
+cd secure-file-storage
+```
+
+✅ Step 3: Install Dependencies
 Install the required Python module:
 ```bash
 pip install cryptography
 ```
 
-✅ Step 3: Run the Program:
+✅ Step 4: Run the Program:
 ```bash
 python filelocker.py
 ```
